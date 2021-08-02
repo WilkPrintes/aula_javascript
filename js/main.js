@@ -52,3 +52,57 @@
 // let date = new Date();
 
 // console.log(date.getHours());
+
+// Funções 
+
+// function soma(n1,n2){
+//     return (n1+n2);
+// }
+
+// function setReplace(frase, nome, novo_nome){
+//     return frase.replace(nome, novo_nome);
+// }
+
+// console.log(soma(15,10));
+// alert(setReplace("Vai Japão", "Japão", "Brasil"))
+
+// function validaIdade(idade){
+//     if (idade >= 18){
+//          return true;
+//     }else{
+//         return false;
+//     }
+// }
+
+// var idade = prompt("Qual sua idade? ")
+
+// if (validaIdade(idade)){
+//     alert("Maior de idade!");
+// }else{
+//     alert("Menor de Idade!");
+// }
+
+function clicou() {
+   var h2Element = document.getElementById("agradecimento")
+   h2Element.innerHTML = "<b>Obrigado por Clicar</b>";
+}
+
+function redirecionar(){
+    // window.open("http://google.com/");
+    window.location.href = "http://google.com/";
+}
+
+function trocar(element){
+    element.innerHTML = "Obrigado por passar o mouse";
+}
+
+function voltar(element){
+    element.innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+    alert("pagina carregada");
+}
+function functionChange(element){
+    console.log(element.value);
+}
